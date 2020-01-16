@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48bb4837106a44466aea61fef9b346fe, type: 3}
-  m_Name: References
+  m_Script: {fileID: 11500000, guid: 4b4a24d0e4a28423fb3249b923d7e418, type: 3}
+  m_Name: YouTube2dTutorial_ManagerPackage
   m_EditorClassIdentifier: 
   actionsManager: {fileID: 11400000, guid: 3cd9dc3e8a67a494699c9f9b1a2fe914, type: 2}
   sceneManager: {fileID: 11400000, guid: d6e8fb64ba9fcca408381a8aadfd49b2, type: 2}
