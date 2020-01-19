@@ -572,6 +572,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 404980234735736157, guid: 20f66c957700fa84e909c6dbd8cff61c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 404980234735736157, guid: 20f66c957700fa84e909c6dbd8cff61c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 404980234735736157, guid: 20f66c957700fa84e909c6dbd8cff61c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4714767146454768822, guid: 20f66c957700fa84e909c6dbd8cff61c,
         type: 3}
       propertyPath: m_Name
@@ -596,6 +611,11 @@ PrefabInstance:
         type: 3}
       propertyPath: talkAnimSprite
       value: BrainTalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 6565017460414293947, guid: 20f66c957700fa84e909c6dbd8cff61c,
+        type: 3}
+      propertyPath: livePreview
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f66c957700fa84e909c6dbd8cff61c, type: 3}
@@ -2067,10 +2087,10 @@ MonoBehaviour:
     order: 7
     layer: 
     color: {r: 0.9325253, g: 0.59426576, b: 0.00420928, a: 1}
-    scale: 100
-  affectScale: 0
+    scale: 120
+  affectScale: 1
   affectSpeed: 1
-  originScale: 100
+  originScale: 90
   sortingMapScaleType: 0
   scalingAnimationCurve:
     serializedVersion: 2
