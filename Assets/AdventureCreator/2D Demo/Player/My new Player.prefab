@@ -354,10 +354,10 @@ MonoBehaviour:
   turn2DCharactersIn3DSpace: 1
   spriteChild: {fileID: 6790585717369993167}
   rotateSprite3D: 0
-  idleAnimSprite: idle
-  walkAnimSprite: walk
-  runAnimSprite: run
-  talkAnimSprite: talk
+  idleAnimSprite: BrainIdle
+  walkAnimSprite: BrainWalk
+  runAnimSprite: 
+  talkAnimSprite: BrainTalk
   lockScale: 0
   spriteScale: 1
   lockDirection: 0
@@ -393,13 +393,13 @@ MonoBehaviour:
       maxAngle: 315
     isUpgraded: 1
   angleSnapping: 0
-  walkSpeedScale: 2
+  walkSpeedScale: 3
   runSpeedScale: 6
   reverseSpeedFactor: 1
   turnSpeed: 7
   acceleration: 6
   deceleration: 0
-  turnBeforeWalking: 0
+  turnBeforeWalking: 1
   runDistanceThreshold: 1
   antiGlideMode: 0
   retroPathfinding: 0
